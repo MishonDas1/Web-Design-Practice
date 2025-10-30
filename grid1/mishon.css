@@ -1,0 +1,51 @@
+.Mishon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; 
+    padding: 20px;
+}
+
+.item {
+    background: #8a0c0c60;
+    border: 1px solid #593131;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+
+.item img {
+    height:200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#case{
+    text-align: center;
+    color: rgb(255, 145, 0);
+}
+.hr{
+ background-color: rgb(255, 0, 0);
+}
+
+body{
+    background-color: rgba(82, 132, 69, 0.91);
+}
+
+
+@media (max-width:700px){
+    .Mishon{
+        grid-template-columns: 1fr;
+    }
+}
+.fotter{
+    text-align: center;
+}
+.item :hover{
+    color: azure;
+}
+.Mishon:hover{
+    color: blueviolet;
+}
+
